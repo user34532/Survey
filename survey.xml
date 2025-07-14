@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey: Living in the Bronx and Struggling with Technology and Internet? Help Us Make It Easier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <h2>Survey: Living in the Bronx and Struggling with Technology and Internet? Help Us Make It Easier</h2>
+    <form>
+      <!-- Section 1: Basic Information -->
+      <fieldset>
+        <legend><strong>Section 1: Basic Information</strong></legend>
+
+        <label>1. What is your primary language?</label><br>
+        <input type="radio" name="primaryLanguage" value="English" /> English<br>
+        <input type="radio" name="primaryLanguage" value="Spanish" /> Spanish<br>
+        <input type="radio" name="primaryLanguage" value="Bengali" /> Bengali<br>
+        <input type="radio" name="primaryLanguage" value="Arabic" /> Arabic<br>
+        <input type="radio" name="primaryLanguage" value="French" /> French<br>
+        <input type="radio" name="primaryLanguage" value="Haitian Creole" /> Haitian Creole<br>
+        <input type="radio" name="primaryLanguage" value="Chinese" /> Chinese (Mandarin or Cantonese)<br>
+        <input type="radio" name="primaryLanguage" value="Russian" /> Russian<br>
+        <input type="radio" name="primaryLanguage" value="Urdu" /> Urdu<br>
+        <input type="radio" name="primaryLanguage" value="Other" /> Other: <input type="text" name="primaryLanguageOther" /><br>
+        <input type="radio" name="primaryLanguage" value="Prefer not to say" /> Prefer not to say
+      </fieldset>
+
+      <fieldset>
+        <legend>2. What is your highest level of education completed?</legend>
+        <input type="radio" name="education" value="No formal schooling" /> No formal schooling<br>
+        <input type="radio" name="education" value="Some elementary or middle school" /> Some elementary or middle school<br>
+        <input type="radio" name="education" value="Completed high school or GED" /> Completed high school or GED<br>
+        <input type="radio" name="education" value="Some college or vocational training" /> Some college or vocational training<br>
+        <input type="radio" name="education" value="Associate’s degree" /> Associate’s degree<br>
+        <input type="radio" name="education" value="Bachelor’s degree" /> Bachelor’s degree<br>
+        <input type="radio" name="education" value="Graduate degree" /> Graduate degree (Master’s, Doctorate)<br>
+        <input type="radio" name="education" value="Prefer not to say" /> Prefer not to say
+      </fieldset>
+
+      <fieldset>
+        <legend>3. What is your current employment status?</legend>
+        <input type="radio" name="employment" value="Full-time" /> Full-time<br>
+        <input type="radio" name="employment" value="Part-time" /> Part-time<br>
+        <input type="radio" name="employment" value="Unemployed" /> Unemployed<br>
+        <input type="radio" name="employment" value="Retired" /> Retired<br>
+        <input type="radio" name="employment" value="Student" /> Student<br>
+        Other: <input type="text" name="employmentOther" /><br>
+      </fieldset>
+
+      <!-- Section 2: Device & Internet Access -->
+      <fieldset>
+        <legend><strong>Section 2: Device & Internet Access</strong></legend>
+
+        <label>4. Do you have a device you can use to access the internet?</label><br>
+        <input type="radio" name="deviceAccess" value="Own device" /> Yes, I have my own device (computer, tablet, or smartphone)<br>
+        <input type="radio" name="deviceAccess" value="Shared device" /> I share a device with others<br>
+        <input type="radio" name="deviceAccess" value="No device" /> I do not have a device<br>
+        Other: <input type="text" name="deviceAccessOther" /><br>
+
+        <label>5. How often do you use the internet?</label><br>
+        <input type="radio" name="internetFrequency" value="Daily" /> Daily<br>
+        <input type="radio" name="internetFrequency" value="A few times a week" /> A few times a week<br>
+        <input type="radio" name="internetFrequency" value="Once a week" /> Once a week<br>
+        <input type="radio" name="internetFrequency" value="Less than once a week" /> Less than once a week<br>
+
+        <label>6. Do you have access to the internet at home?</label><br>
+        <input type="radio" name="internetAccessHome" value="Yes" /> Yes<br>
+        <input type="radio" name="internetAccessHome" value="No" /> No<br>
+        <input type="radio" name="internetAccessHome" value="Occasionally" /> Occasionally (e.g., public Wi-Fi, shared access)<br>
+      </fieldset>
+
+      <!-- Section 3: Skills & Learning Needs -->
+      <fieldset>
+        <legend><strong>Section 3: Skills & Learning Needs</strong></legend>
+
+        <label>7. What challenges do you face when using computers? (Select all that apply)</label><br>
+        <input type="checkbox" name="challenges" value="Navigating websites or software" /> Navigating websites or software<br>
+        <input type="checkbox" name="challenges" value="Filling out online forms" /> Filling out online forms<br>
+        <input type="checkbox" name="challenges" value="Using email or apps" /> Using email or apps<br>
+        <input type="checkbox" name="challenges" value="Typing or using a mouse/keyboard" /> Typing or using a mouse/keyboard<br>
+        <input type="checkbox" name="challenges" value="Understanding instructions or technical language" /> Understanding instructions or technical language<br>
+        <input type="checkbox" name="challenges" value="Creating or editing text documents" /> Creating or editing text documents (e.g., Microsoft Word)<br>
+        <input type="checkbox" name="challenges" value="Language barriers" /> Language barriers<br>
+        <input type="checkbox" name="challenges" value="None" /> None<br>
+        Other: <input type="text" name="challengesOther" /><br>
+
+        <label>8. Are there specific digital skills you want to learn or improve? (Select all that apply)</label><br>
+        <input type="checkbox" name="skillsToLearn" value="Joining a Zoom or video call" /> Joining a Zoom or video call<br>
+        <input type="checkbox" name="skillsToLearn" value="Setting up an email account" /> Setting up an email account<br>
+        <input type="checkbox" name="skillsToLearn" value="Using social media" /> Using social media (Facebook, WhatsApp, Instagram)<br>
+        <input type="checkbox" name="skillsToLearn" value="Applying for jobs online" /> Applying for jobs online<br>
+        <input type="checkbox" name="skillsToLearn" value="Using Google Docs, Sheets, or Drive" /> Using Google Docs, Sheets, or Drive<br>
+        <input type="checkbox" name="skillsToLearn" value="Paying bills or managing accounts online" /> Paying bills or managing accounts online<br>
+        <input type="checkbox" name="skillsToLearn" value="Accessing telehealth or medical portals" /> Accessing telehealth or medical portals<br>
+        <input type="checkbox" name="skillsToLearn" value="Using a phone or tablet for daily tasks" /> Using a phone or tablet for daily tasks<br>
+        Other: <input type="text" name="skillsToLearnOther" /><br>
+
+        <label>9. What type of learning do you prefer?</label><br>
+        <input type="radio" name="learningType" value="Hands-on practice with a teacher" /> Hands-on practice with a teacher<br>
+        <input type="radio" name="learningType" value="Watching video tutorials" /> Watching video tutorials<br>
+        <input type="radio" name="learningType" value="Reading written guides or manuals" /> Reading written guides or manuals<br>
+        <input type="radio" name="learningType" value="Learning on my own at home" /> Learning on my own at home<br>
+        <input type="radio" name="learningType" value="Group discussions or workshops" /> Group discussions or workshops<br>
+        Other: <input type="text" name="learningTypeOther" /><br>
+
+        <label>10. What would make you want to attend a free class to help you get better at using technology and the internet? (Select all that apply)</label><br>
+        <input type="checkbox" name="classIncentives" value="Classes at different times of day" /> Classes at different times of day<br>
+        <input type="checkbox" name="classIncentives" value="Classes closer to where I live" /> Classes closer to where I live<br>
+        <input type="checkbox" name="classIncentives" value="Classes in my primary language" /> Classes in my primary language<br>
+        <input type="checkbox" name="classIncentives" value="Childcare during classes" /> Childcare during classes<br>
+        <input type="checkbox" name="classIncentives" value="More one-on-one support" /> More one-on-one support<br>
+        <input type="checkbox" name="classIncentives" value="Smaller class sizes" /> Smaller class sizes<br>
+        Other: <input type="text" name="classIncentivesOther" /><br>
+
+        <label>11. What would help you keep learning after the class? (Select all that apply)</label><br>
+        <input type="checkbox" name="postClassHelp" value="Access to free or low-cost internet" /> Access to free or low-cost internet<br>
+        <input type="checkbox" name="postClassHelp" value="More advanced classes nearby" /> More advanced classes nearby<br>
+        <input type="checkbox" name="postClassHelp" value="Support from friends or family" /> Support from friends or family<br>
+        <input type="checkbox" name="postClassHelp" value="Access to devices" /> Access to devices (computers, tablets)<br>
+        Other: <input type="text" name="postClassHelpOther" /><br>
+      </fieldset>
+
+      <!-- Section 4: Support & Internet Access -->
+      <fieldset>
+        <legend><strong>Section 4: Support & Internet Access</strong></legend>
+
+        <label>12. Are you enrolled in any assistance programs? (Select all that apply)</label><br>
+        <input type="checkbox" name="assistancePrograms" value="SNAP" /> SNAP (food assistance)<br>
+        <input type="checkbox" name="assistancePrograms" value="Medicaid" /> Medicaid (healthcare)<br>
+        <input type="checkbox" name="assistancePrograms" value="Section 8" /> Section 8 / Housing assistance<br>
+        <input type="checkbox" name="assistancePrograms" value="LIHEAP" /> LIHEAP (energy assistance)<br>
+        <input type="checkbox" name="assistancePrograms" value="TANF" /> TANF (cash assistance)<br>
+        <input type="checkbox" name="assistancePrograms" value="ACP" /> ACP / Lifeline internet discount<br>
+        <input type="checkbox" name="assistancePrograms" value="None" /> None of the above<br>
+        <input type="checkbox" name="assistancePrograms" value="Prefer not to say" /> Prefer not to say<br>
+
+        <label>13. Are you aware of any low-cost internet programs offered by internet providers or community organizations?</label><br>
+        <input type="radio" name="awareLowCostInternet" value="Yes" /> Yes<br>
+        <input type="radio" name="awareLowCostInternet" value="No" /> No<br>
+        <input type="radio" name="awareLowCostInternet" value="Not sure" /> Not sure<br>
+
+        <label>14. Would you like help from library staff to find out if you qualify for low-cost internet programs?</label><br>
+        <input type="radio" name="helpLowCostInternet" value="Yes" /> Yes, please contact me<br>
+        <input type="radio" name="helpLowCostInternet" value="No" /> No, thank you<br>
+      </fieldset>
+
+      <fieldset id="followUpQuestions" style="display:none;">
+        <legend><strong>If “Yes” at Q14, please answer these:</strong></legend>
+
+        <label>15. Have you heard of any of the following internet programs? (Select all that apply)</label><br>
+        <input type="checkbox" name="internetProgramsHeard" value="Verizon Internet Essentials" /> Verizon Internet Essentials<br>
+        <input type="checkbox" name="internetProgramsHeard" value="Spectrum Internet Assist" /> Spectrum Internet Assist<br>
+        <input type="checkbox" name="internetProgramsHeard" value="Xfinity Internet Essentials" /> Xfinity Internet Essentials<br>
+        <input type="checkbox" name="internetProgramsHeard" value="T-Mobile Project 10 Million" /> T-Mobile Project 10 Million<br>
+        <input type="checkbox" name="internetProgramsHeard" value="ACP" /> Affordable Connectivity Program (ACP)<br>
+        <input type="checkbox" name="internetProgramsHeard" value="Local or community programs" /> Local or community internet programs<br>
+        Other: <input type="text" name="internetProgramsOther" /><br>
+        <input type="checkbox" name="internetProgramsHeard" value="None" /> I have not heard of any of these programs<br>
+
+        <label>16. What is your email address? (Optional)</label><br>
+        <input type="email" name="email" placeholder="your.email@example.com" /><br>
+
+        <label>17. What is your ZIP code? (Optional)</label><br>
+        <input type="text" name="zipCode" maxlength="10" /><br>
+      </fieldset>
+
+      <button type="submit" onclick="alert('Thank you for your feedback!')">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    // Show/hide follow-up questions based on Q14 answer
+    document.querySelectorAll('input[name="helpLowCostInternet"]').for

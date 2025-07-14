@@ -1,0 +1,115 @@
+/* NYPL color palette */
+:root {
+    --nypl-red: #e2231a;
+    --nypl-black: #000000;
+    --nypl-white: #ffffff;
+    --nypl-grey: #f5f5f5;
+    --nypl-dark-grey: #333333;
+  }
+  
+  /* Reset and base styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--nypl-grey);
+    color: var(--nypl-black);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .wrapper {
+    max-width: 700px;
+    margin: auto;
+    background-color: var(--nypl-white);
+    border: 2px solid var(--nypl-red);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: var(--nypl-red);
+    margin-bottom: 1em;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* Countdown timer */
+  #countdown {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--nypl-dark-grey);
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .button, button {
+    background-color: var(--nypl-red);
+    color: var(--nypl-white);
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px 0 0;
+  }
+  
+  .button:hover, button:hover {
+    background-color: #b31a14; /* darker red */
+  }
+  
+  /* Form elements */
+  form {
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--nypl-dark-grey);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--nypl-dark-grey);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Survey question section */
+  .section-title {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: var(--nypl-red);
+    border-bottom: 2px solid var(--nypl-red);
+    padding-bottom: 5px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .wrapper {
+      padding: 20px;
+    }
+  }
+  
